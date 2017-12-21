@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Settings</string>
+    <string name="setting_name">设置</string>
+    <string-array name="ages">
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
 </resources>

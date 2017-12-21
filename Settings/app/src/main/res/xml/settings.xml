@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/setting_name"
+    android:layout="@layout/activity_main"
+    >
+    <ListPreference
+        android:defaultValue="21"
+        android:entries="@array/ages"
+        android:entryValues="@array/ages"
+        android:key="delay"
+        android:title="延时"></ListPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="count"
+        android:title="红包统计"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="autoAnswer"
+        android:title="自动答谢" />
+</PreferenceScreen>
